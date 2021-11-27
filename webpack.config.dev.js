@@ -8,7 +8,7 @@ module.exports = {
     module: 'development',
     target: 'web',
     //source maps let us see our original code whn debugging in the browser
-    devTool: 'cheap-module-source-map',
+    devtool: 'cheap-module-source-map',
     entry: './src/index',
     output: {
         path: path.resolve(__dirname,"build"),
